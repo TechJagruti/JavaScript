@@ -1,0 +1,9 @@
+document.write()
+document.write("Ram Ram Sa");
+
+alert()
+alert("Dekho bhai yeh ek alert hai.");
+
+console.log()
+console.log("Dekho bhai yeh console ka log hai. Aasani se nahi dikhane wala");
+
