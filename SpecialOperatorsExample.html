@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Special Operators Example</title>
+</head>
+
+<body>
+
+    <h1>Special Operators in JavaScript</h1>
+
+    <script>
+
+        // typeof
+        let x = 10;
+        document.write("typeof x → " + typeof x + "<br>");
+
+        let name = "Mukesh";
+        document.write("typeof name → " + typeof name + "<br><br>");
+
+        // instanceof
+        let arr = [1, 2, 3];
+        document.write("arr instanceof Array → " + (arr instanceof Array) + "<br><br>");
+
+        // in operator
+        let person = {name: "Rahul", age: 25};
+        document.write("'name' in person → " + ("name" in person) + "<br>");
+        document.write("'salary' in person → " + ("salary" in person) + "<br><br>");
+
+        // ternary operator
+        let age = 18;
+        let result = (age >= 18) ? "Eligible to Vote" : "Not Eligible";
+        document.write("Ternary Result → " + result + "<br><br>");
+
+        // delete operator
+        delete person.age;
+        document.write("After delete age → " + ("age" in person) + "<br><br>");
+
+        // new operator
+        let date = new Date();
+        document.write("New Date Object → " + date + "<br>");
+
+    </script>
+
+</body>
+</html>
