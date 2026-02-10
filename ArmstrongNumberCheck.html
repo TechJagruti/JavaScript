@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Armstrong Number Check</title>
+</head>
+<body>
+
+<h1>Armstrong Number Checker (3 Digit)</h1>
+
+<script>
+
+    let sum = 0;
+
+    // Take input from user
+    let number = prompt("Enter a three-digit positive integer:");
+
+    // Convert string to number
+    number = parseInt(number);
+
+    // Store original number
+    let temp = number;
+
+    while (temp > 0) {
+
+        // Get last digit
+        let remainder = temp % 10;
+
+        // Cube of digit and add to sum
+        sum += remainder * remainder * remainder;
+
+        // Remove last digit
+        temp = parseInt(temp / 10);
+    }
+
+    // Check Armstrong condition
+    if (sum === number) {
+        console.log(number + " is an Armstrong number.");
+        document.write(number + " is an Armstrong number.");
+    } else {
+        console.log(number + " is NOT an Armstrong number.");
+        document.write(number + " is NOT an Armstrong number.");
+    }
+
+</script>
+
+</body>
+</html>
