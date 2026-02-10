@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String Example - Literal vs Object</title>
+</head>
+<body>
+
+<h1>String Literal and String Object Example</h1>
+
+<script>
+
+    // 1️⃣ String Literal
+    var str = "This is string literal";
+
+    document.write("<h3>1) By String Literal:</h3>");
+    document.write(str + "<br><br>");
+
+
+    // 2️⃣ String Object using new keyword
+    var stringname = new String("Hello JavaScript String");
+
+    document.write("<h3>2) By String Object (new keyword):</h3>");
+    document.write(stringname + "<br><br>");
+
+
+    // Extra: Checking Type Difference
+    document.write("<h3>Type Checking:</h3>");
+    document.write("Type of str: " + typeof str + "<br>");
+    document.write("Type of stringname: " + typeof stringname + "<br><br>");
+
+
+    // Extra: Comparison
+    document.write("<h3>Comparison:</h3>");
+    document.write("str == stringname : " + (str == stringname) + "<br>");
+    document.write("str === stringname : " + (str === stringname) + "<br>");
+
+</script>
+
+</body>
+</html>
