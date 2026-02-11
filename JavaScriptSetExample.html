@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Set Full Example</title>
+</head>
+<body>
+
+<h2>JavaScript Set Example</h2>
+<div id="output"></div>
+
+<script>
+    let set = new Set();
+
+    let john = { name: "John" };
+    let pete = { name: "Pete" };
+    let mary = { name: "Mary" };
+
+    // Adding users (some duplicates)
+    set.add(john);
+    set.add(pete);
+    set.add(mary);
+    set.add(john); // duplicate
+    set.add(mary); // duplicate
+
+    let result = "";
+
+    // Set size
+    result += "Set size (only unique values kept): " + set.size + "<br><br>";
+
+    // Looping through Set
+    result += "<b>Users in Set:</b><br>";
+    for (let user of set) {
+        result += user.name + "<br>";
+    }
+
+    // Check if value exists
+    result += "<br>Has John? " + set.has(john) + "<br>";
+
+    // Delete a value
+    set.delete(pete);
+    result += "After deleting Pete, size: " + set.size + "<br>";
+
+    // Convert Set to Array
+    let setArray = Array.from(set);
+    result += "<br><b>Set converted to Array:</b><br>";
+    result += JSON.stringify(setArray);
+
+    // Clear Set
+    set.clear();
+    result += "<br><br>After clear(), size: " + set.size;
+
+    document.getElementById("output").innerHTML = result;
+</script>
+
+</body>
+</html>
