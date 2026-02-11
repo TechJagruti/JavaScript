@@ -1,0 +1,13 @@
+<p id="demo"></p>
+<script>
+    const s = `{
+    "emp": [
+        { "firstName": "Amit", "lastName": "Kumar" },
+        { "firstName": "Jay", "lastName": "Sharma" },
+        { "firstName": "Mohit", "lastName": "Patel" }
+    ]
+ }`;
+    const obj = JSON.parse(s);
+    document.getElementById("demo").innerHTML =
+        obj.emp[1].firstName + " " + obj.emp[1].lastName;
+</script>
