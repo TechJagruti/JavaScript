@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3 Ways to Create Object</title>
+</head>
+<body>
+
+<h2>Creating Objects in JavaScript</h2>
+<div id="output"></div>
+
+<script>
+    let result = "";
+
+    // 1️⃣ Object Literal
+    let obj1 = {
+        name: "Literal",
+        type: "Object Literal"
+    };
+    result += "1) " + obj1.name + " - " + obj1.type + "<br>";
+
+    // 2️⃣ new Object()
+    let obj2 = new Object();
+    obj2.name = "Instance";
+    obj2.type = "new Object()";
+    result += "2) " + obj2.name + " - " + obj2.type + "<br>";
+
+    // 3️⃣ Constructor Function
+    function Person(name, type) {
+        this.name = name;
+        this.type = type;
+    }
+
+    let obj3 = new Person("Constructor", "Constructor Function");
+    result += "3) " + obj3.name + " - " + obj3.type + "<br>";
+
+    document.getElementById("output").innerHTML = result;
+</script>
+
+</body>
+</html>
