@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Map Full Example</title>
+</head>
+<body>
+
+<h2>JavaScript Map Example</h2>
+<div id="output"></div>
+
+<script>
+    // Create a new Map
+    let map = new Map();
+
+    // Adding different types of keys
+    map.set('1', 'str1');   // string key
+    map.set(1, 'num1');     // number key
+    map.set(true, 'bool1'); // boolean key
+
+    let result = "";
+
+    // Get values
+    result += "Value for key 1 (number): " + map.get(1) + "<br>";
+    result += "Value for key '1' (string): " + map.get('1') + "<br>";
+    result += "Map size: " + map.size + "<br><br>";
+
+    // Check if key exists
+    result += "Has key true? " + map.has(true) + "<br>";
+
+    // Delete a key
+    map.delete(true);
+    result += "After deleting true, size: " + map.size + "<br><br>";
+
+    // Loop through Map
+    result += "<b>Looping through Map:</b><br>";
+    for (let [key, value] of map) {
+        result += "Key: " + key + " | Value: " + value + "<br>";
+    }
+
+    // Convert Map to Array
+    let mapArray = Array.from(map);
+    result += "<br><b>Map converted to Array:</b><br>";
+    result += JSON.stringify(mapArray);
+
+    // Clear Map
+    map.clear();
+    result += "<br><br>After clear(), Map size: " + map.size;
+
+    document.getElementById("output").innerHTML = result;
+</script>
+
+</body>
+</html>
