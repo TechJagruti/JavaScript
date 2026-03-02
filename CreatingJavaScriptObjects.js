@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>3 Ways to Create Object</title>
-</head>
-<body>
 
-<h2>Creating Objects in JavaScript</h2>
-<div id="output"></div>
-
-<script>
     let result = "";
 
     // 1️⃣ Object Literal
@@ -34,7 +24,4 @@
     result += "3) " + obj3.name + " - " + obj3.type + "<br>";
 
     document.getElementById("output").innerHTML = result;
-</script>
 
-</body>
-</html>
