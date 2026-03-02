@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Nested If - Student Result</title>
-</head>
 
-<body>
-
-    <h1>Student Result System</h1>
-
-    <script>
         let marks = 85;
         let attendance = 80;
 
@@ -23,7 +13,3 @@
         } else {
             document.write("Fail due to low marks");
         }
-    </script>
-
-</body>
-</html>
