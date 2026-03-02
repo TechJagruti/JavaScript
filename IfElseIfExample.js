@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>If Else If Example</title>
-</head>
 
-<body>
-
-    <h1>Student Grade Example</h1>
-
-    <script>
         let marks = 75;
 
         if (marks >= 90) {
@@ -20,7 +10,3 @@
         } else {
             document.write("Fail");
         }
-    </script>
-
-</body>
-</html>
