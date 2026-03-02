@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>JavaScript Class Example</title>
-</head>
-<body>
-
-<h2>JavaScript Class Example</h2>
-<div id="output"></div>
-
-<script>
     class Person {
         constructor(name, age) {
             this.name = name;
@@ -23,7 +12,3 @@
     let p1 = new Person("Pranjal", 20);
 
     document.getElementById("output").innerHTML = p1.greet();
-</script>
-
-</body>
-</html>
