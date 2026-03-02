@@ -1,2 +1,2 @@
-document.write("Welcome to JavaScript World From JavaScript File");
+Console.log("Welcome to JavaScript World From JavaScript File");
 
