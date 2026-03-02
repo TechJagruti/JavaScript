@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Armstrong Number Check</title>
-</head>
-<body>
-
-<h1>Armstrong Number Checker (3 Digit)</h1>
-
-<script>
-
     let sum = 0;
 
     // Take input from user
@@ -40,8 +29,3 @@
         console.log(number + " is NOT an Armstrong number.");
         document.write(number + " is NOT an Armstrong number.");
     }
-
-</script>
-
-</body>
-</html>
