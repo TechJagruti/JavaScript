@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>JavaScript Map Full Example</title>
-</head>
-<body>
-
-<h2>JavaScript Map Example</h2>
-<div id="output"></div>
-
-<script>
     // Create a new Map
     let map = new Map();
 
@@ -47,7 +36,3 @@
     result += "<br><br>After clear(), Map size: " + map.size;
 
     document.getElementById("output").innerHTML = result;
-</script>
-
-</body>
-</html>
