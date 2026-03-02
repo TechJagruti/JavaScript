@@ -1,7 +1,7 @@
 
   var number = 1;
 while(number <= 10){
-    document.write(number  + '<br />');
+    console.log(number  + '<br />');
     number++;
 }
 
