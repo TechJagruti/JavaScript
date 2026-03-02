@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>JavaScript Set Full Example</title>
-</head>
-<body>
-
-<h2>JavaScript Set Example</h2>
-<div id="output"></div>
-
-<script>
     let set = new Set();
-
     let john = { name: "John" };
     let pete = { name: "Pete" };
     let mary = { name: "Mary" };
@@ -50,7 +38,3 @@
     result += "<br><br>After clear(), size: " + set.size;
 
     document.getElementById("output").innerHTML = result;
-</script>
-
-</body>
-</html>
