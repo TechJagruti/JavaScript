@@ -5,5 +5,5 @@
             break;   // Stop loop when i becomes 5
         }
 
-        console.log("Number: " + i + "<br>");
+        console.log("Number: " + i);
     }
