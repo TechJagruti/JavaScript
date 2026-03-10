@@ -1,8 +1,10 @@
-    for (var i = 1; i <= 5; i++) {
+for (var i = 1; i <= 5; i++) {
 
-        for (var j = 1; j <= 5; j++) {
-            console.log("* ");
-        }
+    var row = "";
 
-        console.log("<br />");
+    for (var j = 1; j <= 5; j++) {
+        row += "*";
     }
+
+    console.log(row);
+}
