@@ -2,33 +2,33 @@
         let a = 10;
         let b = 3;
 
-        console.log("<h3>Values:</h3>");
-        console.log("a = " + a + "<br>");
-        console.log("b = " + b + "<br><br>");
+        console.log("Values:");
+        console.log("a = " + a );
+        console.log("b = " + b );
 
         // Addition
-        console.log("Addition (a + b) = " + (a + b) + "<br>");
+        console.log("Addition (a + b) = " + (a + b));
 
         // Subtraction
-        console.log("Subtraction (a - b) = " + (a - b) + "<br>");
+        console.log("Subtraction (a - b) = " + (a - b));
 
         // Multiplication
-        console.log("Multiplication (a * b) = " + (a * b) + "<br>");
+        console.log("Multiplication (a * b) = " + (a * b));
 
         // Division
-        console.log("Division (a / b) = " + (a / b) + "<br>");
+        console.log("Division (a / b) = " + (a / b));
 
         // Modulus
-        console.log("Modulus (a % b) = " + (a % b) + "<br>");
+        console.log("Modulus (a % b) = " + (a % b));
 
         // Exponentiation
-        console.log("Exponent (a ** b) = " + (a ** b) + "<br><br>");
+        console.log("Exponent (a ** b) = " + (a ** b));
 
         // Increment
         a++;
-        console.log("After Increment (a++) = " + a + "<br>");
+        console.log("After Increment (a++) = " + a );
 
         // Decrement
         b--;
-        console.log("After Decrement (b--) = " + b + "<br>");
+        console.log("After Decrement (b--) = " + b);
    
