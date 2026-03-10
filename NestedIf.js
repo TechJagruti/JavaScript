@@ -1,15 +1,11 @@
-
-        let marks = 85;
-        let attendance = 80;
-
+let marks = 85;
+let attendance = 80;
         if (marks >= 50) {
-
-            if (attendance >= 75) {
-                document.write("Pass");
-            } else {
-                document.write("Fail due to low attendance");
-            }
-
+                if (attendance >= 75) {
+                        console.log("Pass");
+                } else {
+                        console.log("Fail due to low attendance");
+                }
         } else {
-            document.write("Fail due to low marks");
+                console.log("Fail due to low marks");
         }
