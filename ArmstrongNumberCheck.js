@@ -24,8 +24,6 @@
     // Check Armstrong condition
     if (sum === number) {
         console.log(number + " is an Armstrong number.");
-        document.write(number + " is an Armstrong number.");
     } else {
         console.log(number + " is NOT an Armstrong number.");
-        document.write(number + " is NOT an Armstrong number.");
     }
